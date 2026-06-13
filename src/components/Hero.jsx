@@ -1,5 +1,5 @@
 import React from 'react'
-import myVedio from '/vid/hero.mp4';
+
 
 const Hero = () => {
   return (
@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="hero-1 font-bold text-7xl font-[font-3] absolute left-30 top-2 italic">digital</div>
 
       <div className="hero2">
-        <video src={myVedio} autoPlay loop muted className='hero-vedio shadow-1 border-amber-50 border-4 rounded-r-md h-[25vw] absolute left-52 top-18 object-cover'></video>
+        <video src="https://res.cloudinary.com/dpmldj9ki/video/upload/v1781336026/hero_m8hqs0.mp4" autoPlay loop muted className='hero-vedio shadow-1 border-amber-50 border-4 rounded-r-md h-[25vw] absolute left-52 top-18 object-cover'></video>
       </div>
 
       <div className="hero-3  h-75 w-40 flex relative top-8 left-90 p-3">

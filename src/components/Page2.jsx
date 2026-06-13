@@ -1,6 +1,6 @@
 import React from 'react'
-import AfterVedio from '/vid/demo-after.MP4';
-import BeforeVedio from '/vid/before-demo.MOV';
+
+
 
 const Page2 = () => {
   return (
@@ -56,11 +56,11 @@ const Page2 = () => {
         
               <div className="demoright ml-[5vw] ">
                 <div className="before  w-[20vw] h-[30vw] shadow-1 rounded-tl-2xl rounded-bl-2xl border hover:border-[#D5A625] hover:border-4" >
-                  <video src={BeforeVedio} autoPlay loop muted className='h-full w-full object-cover rounded-tl-2xl rounded-bl-2xl'></video>
+                  <video src="https://res.cloudinary.com/dpmldj9ki/video/upload/v1781336050/before-demo_fsbcli.mov" autoPlay loop muted className='h-full w-full object-cover rounded-tl-2xl rounded-bl-2xl'></video>
                 </div>
               </div> 
                 <div className="after  w-[20vw] h-[30vw] shadow-1 rounded-tr-2xl rounded-br-2xl border" >
-                    <video src={AfterVedio} autoPlay loop muted className='h-full w-full object-cover rounded-tr-2xl rounded-br-2xl  hover:border-[#D5A625] hover:border-4'></video>
+                    <video src="https://res.cloudinary.com/dpmldj9ki/video/upload/v1781339608/vedio_after_wz81kb.mp4" autoPlay loop muted className='h-full w-full object-cover rounded-tr-2xl rounded-br-2xl  hover:border-[#D5A625] hover:border-4'></video>
                 </div>
               
             </div>
