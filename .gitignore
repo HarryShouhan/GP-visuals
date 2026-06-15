@@ -24,9 +24,9 @@ dist-ssr
 *.sw?
 
 
-node_modules/
-dist/
-build/
-*.png
-*.jpg
-*.jpeg
+# node_modules/
+# dist/
+# build/
+# *.png
+# *.jpg
+# *.jpeg

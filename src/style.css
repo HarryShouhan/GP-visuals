@@ -1,18 +1,22 @@
 @import "tailwindcss";
 
+*{
+  user-select: none;
+}
+
 @font-face {
-  font-family: font1;
-  src: url(../public/fonts/cubic.ttf);
+  font-family: "font1";
+  src: url(../public/fonts/HelveticaNeueThin.otf) format("truetype");
 }
 
 @font-face {
   font-family: font2;
-  src: url(../public/fonts/batmfo__.ttf);
+  src: url(../public/fonts/HelveticaNeueLight.otf) format("truetype") ;
 }
 
 @font-face {
   font-family: font3;
-  src: url(../public/fonts/batmfa__.ttf);
+  src: url(../public/fonts/HelveticaNeueBold.otf) format("truetype");
 }
 
 .shadow-1{
@@ -39,4 +43,27 @@
 
 .float-3 {
   animation: float 5s ease-in-out infinite 1s;
+}
+
+.preview{
+  display:none;
+
+}
+
+body{
+  font-family: "font-1";
+}
+
+
+.custom-font1{
+  font-family: "font1";
+}
+
+
+.custom-font2{
+  font-family: "font2";
+}
+
+.custom-font3{
+  font-family: "font3";
 }
